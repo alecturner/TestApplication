@@ -48,7 +48,7 @@ public class MyActivity extends Activity {
     public void saveText(View view){
 
         EditText et = (EditText) findViewById(R.id.editText);
-        String entry = (String) et.getText().toString();
+        String entry = et.getText().toString();
 
         //remove keyboard after entry
         InputMethodManager inputManager = (InputMethodManager)
